@@ -1,0 +1,38 @@
+@"
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+**/GeneratedPluginRegistrant.*
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/release/
+android/app/debug/
+android/app/profile/
+**/keystore.jks
+**/*.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+
+# Google/Firebase (если появится)
+**/google-services.json
+**/GoogleService-Info.plist
+"@ | Out-File -Encoding UTF8 ".gitignore"
