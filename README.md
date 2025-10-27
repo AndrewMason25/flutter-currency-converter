@@ -1,33 +1,20 @@
-@"
-# Currency Converter (Flutter)
+# 💱 Currency Converter (Flutter)
 
-Небольшое приложение на Flutter: ввод суммы → выбор валюты (USD/EUR/KZT) → конвертация в RUB.
-- Валидация ввода (`Form` + `TextFormField`)
-- Анимации (`AnimatedOpacity`, `AnimatedContainer`)
-- Деактивация кнопки при неверном вводе
-- Иконки флагов (локальные assets)
+A simple Flutter app that converts currencies — USD, EUR, and KZT — into RUB.
 
-## Скриншоты
-_(добавь изображение в папку `screenshots/` и вставь сюда)_
+## ✨ Features
+- **Input validation** using `Form` and `TextFormField`
+- **Smooth animations** with `AnimatedOpacity` and `AnimatedContainer`
+- **Button state control** (disabled when input is invalid)
+- **Country flag icons** loaded from local assets
+- **Clean UI** built with `Material Design`
 
-## Запуск
-\`\`\`bash
+## 📸 Screenshots
+_Add your screenshots here:_  
+`/screenshots/screenshot1.png`  
+`/screenshots/screenshot2.png`
+
+## 🚀 How to Run
+```bash
 flutter pub get
 flutter run
-\`\`\`
-
-## Структура
-\`\`\`
-lib/
-main.dart
-assets/
-flags/
-us_flag.png
-eu_flag.png
-kz_flag.png
-pubspec.yaml
-\`\`\`
-
-## Лицензия
-MIT
-"@ | Out-File -Encoding UTF8 "README.md"
