@@ -10,9 +10,9 @@ A simple Flutter app that converts currencies — USD, EUR, and KZT — into RUB
 - **Clean UI** built with `Material Design`
 
 ## 📸 Screenshots
-_Add your screenshots here:_  
-`/screenshots/screenshot1.png`  
-`/screenshots/screenshot2.png`
+| Home Screen | Result Screen |
+|--------------|---------------|
+| ![Home](screenshots/screenshot_home.png) | ![Result](screenshots/screenshot_result.png) |
 
 ## 🚀 How to Run
 ```bash
